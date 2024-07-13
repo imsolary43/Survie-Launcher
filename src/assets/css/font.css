@@ -57,3 +57,5 @@
 .icon-settings:before { font-family: "Icons"; content: "\e909"; }
 .icon-monitor:before { font-family: "Icons"; content: "\e90a"; }
 .icon-arrow:before { font-family: "Social-icons"; content: "\e002"; }
+
+.icon-discord { background-image: url('../images/svgs/discord.svg'); background-size: contain; }

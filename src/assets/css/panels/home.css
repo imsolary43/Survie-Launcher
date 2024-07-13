@@ -161,6 +161,49 @@
 
 /*******************************************************************************
  *                                                                             *
+ * social server                                                               *
+ *                                                                             *
+ ******************************************************************************/
+
+ .social-tab {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    right: 0;
+    width: 15%;
+    height: calc(80% - 1rem);
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.social-list {
+    border-radius: 10px;
+    height: 100%;
+}
+
+.social-block {
+    display: flex;
+    background: var(--background-transparent);
+    width: 90px;
+    height: 90px;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-block .icon-social {
+    pointer-events: none;
+    background-repeat: no-repeat;
+    height: 55%;
+    width: 55%;
+    filter: var(--svg-color);
+}
+
+/*******************************************************************************
+ *                                                                             *
  * sidebar                                                                     *
  *                                                                             *
  ******************************************************************************/
