@@ -5,7 +5,7 @@
     "description": "Launcher Mincraft pour la Survie",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis, Solary43, Inc.",
+        "name": "Solary43, Inc.",
         "email": "contact@luuxis.fr",
         "url": "https://github.com/luuxis"
     },
